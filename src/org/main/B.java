@@ -12,4 +12,9 @@ public class B {
         myVar = "B.n";
         System.out.println(myVar);
     }
+
+    void foo(){
+        m();
+        n();
+    }
 }
